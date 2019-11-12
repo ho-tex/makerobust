@@ -4,6 +4,9 @@
 \let\MakeRobustCommand\MakeRobust
 
 \PackageInfo{makerobust}{%
-Please use the standard \protect\MakeRobust command,\MessageBreak
- not the \MakeRobustCommand command defined by this package}
+\MessageBreak
+Please use the standard \noexpand\MakeRobust command,\MessageBreak
+not the \noexpand\MakeRobustCommand command\MessageBreak
+defined by this package\@gobble
+}
 
