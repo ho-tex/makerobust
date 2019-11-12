@@ -1,0 +1,24 @@
+\documentclass{article}
+\title{makerobust package}
+\author{Oberdiek Package Support Group}
+\date{\today}
+\raggedright
+\setlength\parskip{\baselineskip}
+\begin{document}
+
+
+
+Heiko Oberdiek's \textsf{makerobust} package defined a command with name
+\verb|\MakeRobustCommand| that can be used to make fragile commands
+robust.
+
+The \LaTeX\ format has, since 2015, included a command
+\verb|\MakeRobust| with the same syntax and behaviour.  Also by 2019,
+almost all commands in \LaTeX\ that may be used in a moving argument
+are already robust.
+
+This package is now just a simple one line package defining the name 
+\verb|\MakeRobustCommand| as an alias for \verb|\MakeRobust|, and
+should not be used in new documents.
+
+\end{document}
